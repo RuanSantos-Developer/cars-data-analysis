@@ -129,8 +129,7 @@ Investiga correlações entre potência, cilindrada, velocidade máxima e curvas
 
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/automotive-pipeline.git
-cd automotive-pipeline
+git clone https://github.com/RuanSantos-Developer/cars-data-analysis.git
 ```
 
 **2. Instale as dependências**
@@ -140,14 +139,14 @@ pip install pandas matplotlib seaborn jupyter
 
 **3. Execute o pipeline**
 
-Abra o `pipeline-cars.ipynb` no Jupyter e execute todas as células em sequência. O dataset limpo será exportado automaticamente como `cars_cleaned_final.csv`.
+Abra o `pipeline-cars.ipynb` e execute todas as células em sequência. O dataset limpo será exportado automaticamente como `cars_cleaned_final.csv`.
 
 ---
 
 ## Estrutura do Repositório
 
 ```
-automotive-pipeline/
+cars-data-analysis/
 │
 ├── Cars Datasets 2025.csv       # Fonte de dados brutos
 ├── pipeline-cars.ipynb          # Notebook do pipeline ETL e EDA
@@ -165,6 +164,5 @@ automotive-pipeline/
 
 <p align="center">
   Desenvolvido por <strong>Ruan</strong> &nbsp;·&nbsp;
-  <a href="#">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="#">Portfólio</a>
+  <a href="www.linkedin.com/in/ruan-santos-780442218">LinkedIn</a> &nbsp;·&nbsp;
 </p>
